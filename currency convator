@@ -1,0 +1,29 @@
+ # currency converter by Taha Anowar
+Dollar = 0.0091
+euro = 0.0084
+pound = 0.0072
+rupess = 0.75
+chiness_yuan = 0.066
+mexican_peso = 0.15
+russian_ruble = 0.84
+a = float(input("Enter Money in taka"))
+b = input("Did YOU Enter Your Money ,'a)Dollar','b)Euro','c)Pound', \n'd)Rupess','e)chiness_yuan',f)mexican_peso',g)russian_ruble'")
+
+if b == "a":
+  print (f"Your Taka in Dollar {a*Dollar}")
+elif b == "b":
+  print(f"Your Taka in Euro {a*euro}")
+elif b == "c":
+  print(f" Your Taka in Pound {a*pound}")
+elif b == "d":
+  print(f"Your Taka in rupess {a*rupess}")
+elif b =="e":
+  print(f"Your Taka in chiness_yuan {a*chiness_yuan} ")
+elif b == "f":
+  print (f"Your Taka in mexican_peso {a*mexican_peso} ")
+elif b == "g":
+ print (f"Your Taka in russian_ruble {a*russian_ruble}")
+else:
+  print("Can't Do That")
+  # code by taha
+  
